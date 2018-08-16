@@ -1,0 +1,13 @@
+static_library("libbt-mtk_cust") {
+  sources = [
+    "hci/hci_fw_core_dump_ctrl.c",
+  ]
+
+  include_dirs = [
+    "include",
+    "//",
+    "//include",
+    "//btcore/include",
+    "//stack/include",
+  ]
+}
